@@ -19,34 +19,34 @@
   margin: 0;
 }
 
-.is-orange {
+.is-1 {
   display:table-cell;
   width: 100px;
   background: #fdc8b8;
 }
 
-.is-purple {
+.is-2 {
   display:table-cell;
   background: #e0abd9;
 }
 
-.is-blue {
+.is-3 {
   display:table-cell;
   width: 100px;
   background: #b6d8ed;
 }
 
-.is-yellow {
+.is-4 {
   display:table-cell;
   background: #e5d32e;
 }
 
-.is-lightYellow {
+.is-5 {
   display:table-cell;
   background: #e4e67c;
 }
 
-.is-green {
+.is-6 {
   display:table-cell;
   width: 500px;
   background: #8fdcad;
