@@ -1,5 +1,148 @@
 @charset "UTF-8";
 
 /* 回答はここに書いてね */
+.form {
+ width: 700px;
+ margin: 0 auto;
+ padding: 20px;
+ background-color: #ECF1F2;
+}
 
+.form__title {
+  position: relative;
+  margin-bottom: 20px;
+}
+
+.form__title:before {
+  background-color: #ccc;
+  content: "";
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  height: 1px;
+}
+
+.title__text {
+  position: relative;
+  display: inline-block;
+  padding-right: 10px;
+  background-color: #ECF1F2;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.main {
+  float: left;
+  width: 300px;
+}
+
+.main__list {
+  margin-bottom: 20px;
+}
+
+.main__list > li:not(:first-child) {
+  margin-top: 20px;
+}
+
+.main__items__title {
+  float: left;
+  width: 100px;
+  line-height: 25px;
+  text-align: right;
+}
+
+.main__items__content {
+  float: right;
+  width: 180px;
+}
+
+.main__items__title .point {
+  color: red;
+}
+
+.input {
+  width: 100%;
+  padding: 5px;
+  border-radius: 3px;
+  background-color: #fff;
+  font-size: 12px;
+  line-height: 12px;
+  box-sizing: border-box;
+}
+
+.input--init {
+  border: none;
+  outline: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+}
+
+.radio {
+  cursor: pointer;
+}
+
+.radio__btn {
+  display: none;
+}
+
+.radio__txt {
+  position: relative;
+  display: inline-block;
+  padding: 3px 3px 3px 20px;
+}
+
+.radio__txt:before {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  width: 14px;
+  height: 14px;
+  margin-top: -8px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 50%;
+  content: '';
+}
+
+.radio__btn:checked + .radio__txt:after {
+  position: absolute;
+  top: 50%;
+  left: 4px;
+  width: 8px;
+  height: 8px;
+  margin-top: -4px;
+  background-color: #00bcd4;
+  border-radius: 50%;
+  content: '';
+}
+
+.main__bottom {
+  text-align: right;
+}
+
+.main__bottom__btn {
+  padding: 0 10px;
+  border-radius: 5px;
+  background-color: #00bcd4;
+  color: #fff;
+  cursor: pointer;
+  font-size: 16px;
+  line-height: 26px;
+}
+
+.side {
+  float: right;
+  width: 380px;
+}
+
+.side__txt {
+  width: 100%;
+  height: 203px;
+  padding: 10px;
+  border-radius: 3px;
+  background-color: #fff;
+  font-size: 12px;
+ box-sizing: border-box;
+  resize: none;
+}
 /* 回答はここに書いてね */

@@ -1,5 +1,40 @@
 @charset "UTF-8";
 
 /* 回答はここに書いてね */
+.main {
+  position: relative;
+  width: 500px;
+  padding: 20px;
+  margin: 0 auto;
+  border: 5px solid #222;
+  border-radius: 30px;
+}
 
+.main:before {
+  content: "";
+  position: absolute;
+  bottom: -18px;
+  left: 50%;
+  margin-left: -239px;
+  width: 0px;
+  height: 0px;
+  border-style: solid;
+  border-width: 19px 19px 0 19px;
+  border-color: #fff transparent transparent transparent;
+  z-index: 0;
+}
+
+.main:after {
+  content: "";
+  position: absolute;
+  bottom: -25px;
+  left: 50%;
+  margin-left: -244px;
+  width: 0px;
+  height: 0px;
+  border-style: solid;
+  border-width: 24px 24px 0 24px;
+  border-color: #000 transparent transparent transparent;
+  z-index: -1;
+}
 /* 回答はここに書いてね */
